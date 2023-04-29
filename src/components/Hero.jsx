@@ -27,13 +27,11 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute flex items-center justify-center w-full bottom-32 xs:bottom-10">
+      <div className="absolute flex items-center justify-center w-full bottom-12 xs:bottom-10">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
+              animate={{ y: [0, 24, 0] }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
